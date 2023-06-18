@@ -1,0 +1,67 @@
+:host{
+    padding:0;
+    background-color: white;
+    height: 100vh;
+    overflow: hidden;
+    box-shadow: 3px 4px 5px #E5ECF1;
+}
+
+img
+{
+    width:50%;
+    height: auto;
+    padding: 10px 0px 10px 30px;
+}
+
+.logo
+{   
+    border-bottom: 1px solid #8A8A8A;
+    display: flex;
+    align-items: center;
+}
+
+
+.buttons div
+{
+    display: flex;
+    padding: 10px 0px 0px  27px;
+}
+
+fa-icon
+{
+    color:#8A8A8A;
+    font-size: 20px;
+/* UI Properties */
+    opacity: 1;
+    padding: 7px 21px 9px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h1{
+    width: auto;
+height: 21px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 18px/48px Helvetica;
+letter-spacing: 0px;
+color: #8A8A8A;
+opacity: 1;
+margin:0;
+display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.border-bottom
+{
+
+    margin: 10px 10px 10px  27px;
+    border-bottom: 1px solid #8A8A8A;
+}
+.buttons div:hover fa-icon,
+.buttons div:hover h1 {
+  color: #00AAF7;
+}

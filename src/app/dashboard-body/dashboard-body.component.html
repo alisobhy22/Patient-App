@@ -1,0 +1,36 @@
+<div class = "cont">
+    <div class = "nav">
+       <h4 style = 'background-color: white;'>Dashboard</h4>
+        <h4>Visits</h4>
+        <h4>Demographics</h4>
+        <h4>Address</h4>
+        <h4>Contacts</h4>
+        <h4>Insurance</h4>
+        <h4>Documents</h4>
+        <h4>Account</h4>
+        <h4>Pharmacy</h4>
+        <h4>Notes</h4>
+        <h4>Results</h4>
+        <h4>Tasks</h4>
+    </div>
+    <div class = "Visit-Balance"> 
+       <app-last-next-visit></app-last-next-visit>
+        <div class = "Balances">
+            <app-patient-bal></app-patient-bal>
+            <app-insurance-bal></app-insurance-bal>
+        </div>
+    </div>
+    <div class = "Boxes-container">
+        <div class = "view">
+            <app-last-visit></app-last-visit>
+            <app-contacts></app-contacts>
+        </div>
+        <div class = "view">
+            <app-notes></app-notes>
+            <app-documents></app-documents>
+        </div>
+        <div class = "view">
+            <app-messages></app-messages>
+        </div>
+    </div>
+</div>
